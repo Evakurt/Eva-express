@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva Express</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="register.css">
+
+    <!-- jQuery link to help scroll-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <!--logo starts --
+
+
+    <section class="logo-box">
+
+        <div class="logo-icon" ><a href="home.html"><img src="img/logo.png" alt=""></a></div> 
+
+        <div class="logo-contact">
+
+        <div class="logo-text">
+            <span>Sunday CLOSED</span>
+            <h6>MON - SAT 8.00 - 18.00
+            </h6>
+        </div>
+
+        <div class="logo-text">
+            <span>Call Us Anytime</span>
+            <h6>1-888-123-4567</h6>
+        </div>
+
+        <div class="logo-text">
+            <span>Columbia, SC 29201</span>
+            <h6>227 MARION STREET</h6>
+        </div>
+
+
+    
+
+    </section>
+
+    <!-- logo ends-->
+
+     <!--Navigation starts-->
+     
+     <nav>
+ 
+        <div class="navigation">
+            
+            <ul class="nav-menu">
+                <li class="nav-item"> <a href="home.html" class="nav-link">Home</a></li>
+                <li class="nav-item"> <a href="shippers.html" class="nav-link">Shippers</a></li>
+                <li class="nav-item"> <a href="freight.html" class="nav-link">Freight</a></li>
+                <li class="nav-item"> <a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"> <a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"> <a href="track.html" class="nav-link">Track Order</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+     
+     </nav>   
+ 
+     <!--Navigation ends -->
+     
+     <div class="wbody">
+
+     <div class="regform"><h1>Registration Form</h1></div>
+
+     <div class="main">
+        <form  onsubmit="checkReg(); return false;">
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input type="text" class="firstname" name="firstName" placeholder="Firstname" required>
+                <input type="text" class="lastname" name="lastName" placeholder="Lastname" required>
+            </div>
+            <h2 class="Age">Age</h2>
+            <input type="date" class="age" name="date" required>
+
+            <h2 class="Gender">Gender</h2>
+            <select  class="gender">
+                <option name="gender" value="m">Male</option>
+                <option name="gender" value="f">Female</option>
+                <option name="gender" value="o">Others</option>
+            </select>
+            <h2 class="E-mail">E-mail</h2>
+            <input type="text" class="email" name="email" placeholder="e.g. zzzz@gmail.com" required>
+
+            <h2 class="Phone">Phone</h2>
+           <!-- <select class="phone" name="phone" id="">
+                <option name="phone" value="n">+1</option>
+                <option name="phone" value="n">+234</option>
+                <option name="phone" value="n">+233</option>
+                <option name="phone" value="n">+94</option>
+                <option name="phone" value="n">+95</option>
+            </select> -->
+
+            <input type="number" class="number" placeholder="phone number" name="phoneNumber" required>
+            
+            <h2 class="password">Password</h2>
+        
+            <input type="password" class="pass1" name="password1" placeholder="enter password" id="trackReg" required>
+            <input type="password" class="pass2" name="password2" placeholder="re-enter password" required><br>
+
+            <p class="condiotion"><input type="checkbox" id="terms" name="checkbox" required>I accept the terms and conditions</p><br><br>
+
+            <input type="submit" class="btn" value="Register">
+
+
+        </form>
+     </div>
+
+    </div>
+</body>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/63dee79fc2f1ac1e2031730a/1gofbhi38';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+<script src="logistics.js"></script>
+</html>

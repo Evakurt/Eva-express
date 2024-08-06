@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva Express</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="login-style.css">
+
+    <!-- jQuery link to help scroll-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <!--Navigation starts-->
+     
+    <nav>
+ 
+        <div class="navigation">
+            
+            <ul class="nav-menu">
+                <li class="nav-item"> <a href="home.html" class="nav-link">Home</a></li>
+                <li class="nav-item"> <a href="shippers.html" class="nav-link">Shippers</a></li>
+                <li class="nav-item"> <a href="freight.html" class="nav-link">Freight</a></li>
+                <li class="nav-item"> <a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"> <a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"> <a href="track.html" class="nav-link">Track Order</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+     
+     </nav>   
+ 
+     <!--Navigation ends -->
+
+
+<!---- <div class="login-form">
+    <h1>Login </h1>
+    <form action="#" method="post">
+        <p>User Name</p>
+        <input type="text" name="user" placeholder="Username" required>
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+
+    </form>
+    <p>Don't have an account? </p>
+    <a class="reg" href="register.html"> Register Here</a>  -->
+
+
+
+    <div class="login-form">
+        <h1>Login </h1>
+      <form onsubmit="checkPassword(); return false;">
+        <p>User Name</p>
+        <input type="text" id="username" name="username" placeholder="Enter Username" required>
+        <p>Password</p>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        <input class="button" type="submit" value="Submit">
+       </form>
+       <p>Don't have an account? </p>
+      <a class="reg" href="register.html"> Register Here</a>
+
+      </div>
+    
+</div>
+
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/63dee79fc2f1ac1e2031730a/1gofbhi38';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+<script src="logistics.js"></script>
+</body>
+
+</html>
